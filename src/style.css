@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+}
+
+/* Navbar container */
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: skyblue;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* Logo */
+.logo h1{
+  margin: 0;
+}
+
+/* hover */
+
+.nav-menu p:hover{
+    text-decoration: underline;
+}
+
+/* Menu */
+.nav-menu{
+  display: flex;
+  gap: 30px;
+}
+
+/* Menu items */
+.nav-menu p{
+  margin: 0;
+  cursor: pointer;
+  font-size: 14px;
+  
+}
+
+/* fotos */
+
+.fotos{
+    column-count: 5;
+    column-gap: 15px;
+    padding: 15px;
+}
+
+.fotos img{
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
